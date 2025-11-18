@@ -49,7 +49,7 @@ class LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Login TaskMaster')),
+      appBar: AppBar(title: const Text('Login')),
       body: FadeTransition(
         opacity: _fadeAnimation,
         child: Padding(
