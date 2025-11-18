@@ -14,7 +14,7 @@ class SideMenu extends StatelessWidget {
         children: [
           const DrawerHeader(
             decoration: BoxDecoration(color: Colors.blue),
-            child: Text('TaskMaster Menu', style: TextStyle(color: Colors.white, fontSize: 24)),
+            child: Text('Menu', style: TextStyle(color: Colors.white, fontSize: 24)),
           ),
           ListTile(
             leading: const Icon(Icons.home),

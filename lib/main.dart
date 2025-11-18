@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
     return Consumer<ThemeProvider>(
       builder: (context, themeProvider, child) {
         return MaterialApp(
-          title: 'TaskMaster',
+          title: 'H1D023069_Tugas7',
           theme: themeProvider.isDarkMode ? ThemeData.dark() : ThemeData.light(),
           initialRoute: isLoggedIn ? '/home' : '/login',
           routes: {
